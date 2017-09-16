@@ -1,0 +1,79 @@
+*vim-emacs.txt*         For Vim version 8.0          change: 2017 September 15
+
+==============================================================================
+CONTENTS                                                      *emacs-contents*
+
+1.Intro........................................|emacs-intro|
+2.Setup........................................|emacs-setup|
+3.Usage........................................|emacs-usage|
+4.Commands.....................................|emacs-commands|
+5.Elisp........................................|emacs-elisp|
+6.About........................................|emacs-about|
+7.License......................................|emacs-license|
+
+
+==============================================================================
+1. Intro                                                         *emacs-intro*
+
+vim.emacs is a vim plugin to evaluate elisp expressions in Emacs with a
+server running.
+
+May be useful if you edit your .emacs file with vim.
+
+Isn't it awesome?!
+
+ https://github.com/ollej/vim.emacs
+
+
+==============================================================================
+2. Setup                                                         *emacs-setup*
+
+Open Emacs and run the following command to start the server.
+
+>
+M-x server-start
+<
+
+
+==============================================================================
+3. Usage                                                         *emacs-usage*
+
+Select a range of lines with Elisp expressions and run the command `:Emacs`
+
+Each line will be executed in Emacs and any output will be displayed in Vim.
+
+
+==============================================================================
+4. Commands                                                   *emacs-commands*
+
+:Emacs                                                                *:Emacs*
+
+Evaluate range in Emacs as Elisp expressions. Each expression must be on a
+single line.
+
+==============================================================================
+5. Elisp                                                         *emacs-elisp*
+
+A couple of emacs lisp lines to try out.
+
+>
+(message "Hello, world!")
+(info "Elisp")
+<
+
+==============================================================================
+6. About                                                         *emacs-about*
+
+vim-emacs is written by Olle Johansson (GitHub: ollej)
+
+Find the latest version of vim-emacs at:
+
+    http://github.com/ollej/vim-emacs
+
+==============================================================================
+7. License                                                     *emacs-license*
+
+vim-emacs is released under the MIT License.
+See https://opensource.org/licenses/MIT
+
+ vim:tw=78:sw=4:ft=help:norl:

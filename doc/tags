@@ -1,0 +1,8 @@
+:Emacs	vim-emacs.txt	/*:Emacs*
+emacs-commands	vim-emacs.txt	/*emacs-commands*
+emacs-contents	vim-emacs.txt	/*emacs-contents*
+emacs-elisp	vim-emacs.txt	/*emacs-elisp*
+emacs-intro	vim-emacs.txt	/*emacs-intro*
+emacs-setup	vim-emacs.txt	/*emacs-setup*
+emacs-usage	vim-emacs.txt	/*emacs-usage*
+vim-emacs.txt	vim-emacs.txt	/*vim-emacs.txt*
